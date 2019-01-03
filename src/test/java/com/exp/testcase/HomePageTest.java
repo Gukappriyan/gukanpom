@@ -13,8 +13,8 @@ public class HomePageTest extends Base {
 	}
 	
 	@Test
-	public void login() {
-		System.out.println("test");
+	public void homePage() {
+		driver.get("http://stepbystepautomationtesting.blogspot.com/");
 	}
 
 }
